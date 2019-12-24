@@ -47,7 +47,7 @@ func PostFile(filedir, filename, userID string) (version string, err error) {
 	}
 	contentType := bodyWriter.FormDataContentType()
 	bodyWriter.Close()
-	targetURL := "http://52.23.176.180:4000/v1/upload"
+	targetURL := "http://localhost:4000/v1/upload"
 	resp, err := http.Post(targetURL, contentType, bodyBuf)
 	if err != nil {
 		return "", err
