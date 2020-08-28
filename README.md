@@ -1,4 +1,5 @@
 # GeoBasedService
+Backend Service Used for GeoTracing users using mongodb and golang.  
 Copy these Three folders into ~/go/src/ folder
 Go to Individual folder and run go get ./...  to get the dependencies then run go build
 Example
